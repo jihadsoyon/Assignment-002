@@ -414,7 +414,93 @@ color: #aeb7be;
 .hide{
   display: none !important;
 }
+/* reponsive related style */
+@media screen and (max-width: 576px){
 
+.navbar ul{
+  display: none;
+}
+.nav-btn{
+  display: none;
+}
+
+.mic-circle{
+  width: 250px;
+  height: 250px;
+}
+.mic-circle img{
+  width: 90px;
+}
+.badge{
+  top: 0px;
+}
+
+#about .about-text{
+max-width: 100%;
+}
+.about-text h3{
+  font-size: 2rem;
+  
+}
+.about-text p{
+  padding: 5px;
+}
+.about-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  
+}
+
+ #techwave .techwave-header h3{
+  padding-top: 60px;
+  font-size: 30px;
+ }
+ .techwave-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 10px;
+ }
+ #features{
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
+ .feature-heading1{
+  font-size: 2rem;
+ }
+ .feature-podcasat{
+  flex-direction: column;
+ }
+ .feature-podcasat .podcast iframe{
+  width: 100%;
+ }
+ .feature-heading2{
+  font-size: 2rem;
+  margin-top: 60px;
+ }
+ .host-content{
+  flex-direction: column;
+  gap: 20px;
+ }
+.footer-container {
+    width: 100%; 
+    padding: 0;
+}
+.footer-heading h3{
+  font-size: 2rem;
+}
+.footer-items{
+  flex-wrap: wrap;
+  
+}
+}
+
+@media screen and (min-width: 577px){
+  .navbar .nav-items i{
+    display: none;
+  }
+}
 
 
 
