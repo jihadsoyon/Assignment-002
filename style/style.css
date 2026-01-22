@@ -372,6 +372,48 @@ margin-bottom: 16px;
   background-color: #250D44;
   border: 1px solid #aeb7be;
 }
+/* footer related style */
+
+footer{
+  background-image: url(../assets/footer-bg.png);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  border: none;
+  height: 412px;
+  overflow: hidden; 
+  
+}
+
+.footer-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 120px;
+}
+.footer-heading h3{
+font-size: 4rem;
+font-weight: 900;
+color: #FFFFFF;
+}
+.footer-items{
+  color: #aeb7be;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .footer-text {
+margin-top: 32px;
+color: #aeb7be;
+}
+
+.hide{
+  display: none !important;
+}
 
 
 
