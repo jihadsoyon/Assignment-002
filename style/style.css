@@ -244,7 +244,7 @@ font-size: 48px;
 .box{
   
   background-color: #351165;
-  padding: 40px;
+  padding: 35px;
   border-radius: 40px;
 }
 
@@ -485,7 +485,7 @@ max-width: 100%;
  }
 .footer-container {
     width: 100%; 
-    padding: 0;
+    padding: 0px;
 }
 .footer-heading h3{
   font-size: 2rem;
